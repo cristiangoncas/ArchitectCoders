@@ -51,6 +51,7 @@ fun CatalogScreen(
                 region = ctx.getRegion()
             }
         }
+        viewModel.onUiReady()
     }
 
     Screen {
@@ -80,7 +81,6 @@ fun CatalogScreen(
             }
         }
     }
-    viewModel.onUiReady()
 }
 
 @Composable
